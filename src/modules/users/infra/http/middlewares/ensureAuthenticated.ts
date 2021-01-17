@@ -30,7 +30,7 @@ export default function ensureAuthenticated(request: Request, response: Response
 
       // Forçando o tipo TokenPayload para o retorno de
       // verify que não possui um tipo definido
-      const { sub } = decoded as TokenPayload;
+      const { sub } = decoded as ITokenPayload;
 
       request.user = {
         id: sub,

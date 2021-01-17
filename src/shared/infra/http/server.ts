@@ -1,3 +1,5 @@
+import dotenv from 'dotenv';
+
 /**
  * Dependência necessária para o typeorm
  * Necessário principalmente por causa do decorator
@@ -16,6 +18,8 @@ import '@shared/infra/typeorm';
 import AppError from '@shared/errors/AppError';
 // import do container para injeção de dependência
 import '@shared/container';
+
+dotenv.config();
 
 const app = express();
 
