@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "dev:server": "ts-node-dev -r tsconfig-paths/register --inspect --transpileOnly --ignore-watch node_modules src/shared/infra/http/server.ts",
-    "start": "node dist/shared/infra/http/server.js",
+    "start": "node -r ts-node/register/transpile-only -r tsconfig-paths/register dist/shared/infra/http/server.js",
     "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
     "test": "jest"
   },
@@ -25,6 +25,7 @@
     "pg": "^8.2.1",
     "reflect-metadata": "^0.1.13",
     "request": "^2.88.2",
+    "ts-node": "^9.1.1",
     "tsyringe": "^4.3.0",
     "typeorm": "^0.2.25",
     "uuidv4": "^6.1.0"
