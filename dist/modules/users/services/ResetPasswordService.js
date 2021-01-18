@@ -53,7 +53,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var tsyringe_1 = require("tsyringe");
 var date_fns_1 = require("date-fns");
-var AppError_1 = __importDefault(require("@shared/errors/AppError"));
+var AppError_1 = __importDefault(require("../../../shared/errors/AppError"));
 var ResetPasswordService = /** @class */ (function () {
     function ResetPasswordService(usersRepository, userTokensRepository, hashProvider) {
         this.usersRepository = usersRepository;

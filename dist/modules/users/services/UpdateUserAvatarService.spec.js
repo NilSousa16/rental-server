@@ -39,10 +39,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var FakeStorageProvider_1 = __importDefault(require("@shared/container/providers/StorageProvider/fakes/FakeStorageProvider"));
+var FakeStorageProvider_1 = __importDefault(require("../../../shared/container/providers/StorageProvider/fakes/FakeStorageProvider"));
 var FakeUsersRepository_1 = __importDefault(require("../repositories/fakes/FakeUsersRepository"));
 var UpdateUserAvatarService_1 = __importDefault(require("./UpdateUserAvatarService"));
-var AppError_1 = __importDefault(require("@shared/errors/AppError"));
+var AppError_1 = __importDefault(require("../../../shared/errors/AppError"));
 var fakeUsersRepository;
 var fakeStorageProvider;
 var updateUserAvatar;

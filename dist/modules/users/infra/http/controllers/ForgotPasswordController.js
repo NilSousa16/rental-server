@@ -40,7 +40,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var tsyringe_1 = require("tsyringe");
-var SendForgotPasswordEmailService_1 = __importDefault(require("@modules/users/services/SendForgotPasswordEmailService"));
+var SendForgotPasswordEmailService_1 = __importDefault(require("../../../../../modules/users/services/SendForgotPasswordEmailService"));
 var ForgotPasswordController = /** @class */ (function () {
     function ForgotPasswordController() {
     }

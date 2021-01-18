@@ -4,10 +4,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var express_1 = require("express");
-var appointments_routes_1 = __importDefault(require("@modules/appointments/infra/http/routes/appointments.routes"));
-var users_routes_1 = __importDefault(require("@modules/users/infra/http/routes/users.routes"));
-var sessions_routes_1 = __importDefault(require("@modules/users/infra/http/routes/sessions.routes"));
-var password_routes_1 = __importDefault(require("@modules/users/infra/http/routes/password.routes"));
+var appointments_routes_1 = __importDefault(require("../../../../modules/appointments/infra/http/routes/appointments.routes"));
+var users_routes_1 = __importDefault(require("../../../../modules/users/infra/http/routes/users.routes"));
+var sessions_routes_1 = __importDefault(require("../../../../modules/users/infra/http/routes/sessions.routes"));
+var password_routes_1 = __importDefault(require("../../../../modules/users/infra/http/routes/password.routes"));
 var routes = express_1.Router();
 /**
  * Toda rota iniciada por "/appointments" será

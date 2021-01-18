@@ -43,7 +43,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var FakeHashProvider_1 = __importDefault(require("../providers/HashProvider/fakes/FakeHashProvider"));
 var FakeUsersRepository_1 = __importDefault(require("../repositories/fakes/FakeUsersRepository"));
 var UpdateProfileService_1 = __importDefault(require("./UpdateProfileService"));
-var AppError_1 = __importDefault(require("@shared/errors/AppError"));
+var AppError_1 = __importDefault(require("../../../shared/errors/AppError"));
 var fakeUsersRepository;
 var fakeHashProvider;
 var updateProfile;

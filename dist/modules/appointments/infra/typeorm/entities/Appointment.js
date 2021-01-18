@@ -13,7 +13,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var typeorm_1 = require("typeorm");
-var User_1 = __importDefault(require("@modules/users/infra/typeorm/entities/User"));
+var User_1 = __importDefault(require("../../../../users/infra/typeorm/entities/User"));
 var Appointment = /** @class */ (function () {
     function Appointment() {
     }

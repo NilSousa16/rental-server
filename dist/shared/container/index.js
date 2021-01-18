@@ -7,11 +7,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * Arquivo para controlar a injeção de dependencias
  */
 var tsyringe_1 = require("tsyringe");
-require("@modules/users/providers");
+require("../../modules/users/providers");
 require("./providers");
-var AppointmentsRepository_1 = __importDefault(require("@modules/appointments/infra/typeorm/repositories/AppointmentsRepository"));
-var UsersRepository_1 = __importDefault(require("@modules/users/infra/typeorm/repositories/UsersRepository"));
-var UserTokensRepository_1 = __importDefault(require("@modules/users/infra/typeorm/repositories/UserTokensRepository"));
+var AppointmentsRepository_1 = __importDefault(require("../../modules/appointments/infra/typeorm/repositories/AppointmentsRepository"));
+var UsersRepository_1 = __importDefault(require("../../modules/users/infra/typeorm/repositories/UsersRepository"));
+var UserTokensRepository_1 = __importDefault(require("../../modules/users/infra/typeorm/repositories/UserTokensRepository"));
 /**
  * <IAppointmentsRepository> - garante que o paramêtro de injeção seja do tipo especificado
  */

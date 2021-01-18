@@ -45,7 +45,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 var date_fns_1 = require("date-fns");
 var tsyringe_1 = require("tsyringe");
-var CreateAppointmentService_1 = __importDefault(require("@modules/appointments/services/CreateAppointmentService"));
+var CreateAppointmentService_1 = __importDefault(require("../../../../appointments/services/CreateAppointmentService"));
 var AppointmentsController = /** @class */ (function () {
     function AppointmentsController() {
     }

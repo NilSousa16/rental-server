@@ -43,7 +43,7 @@ var FakeUsersRepository_1 = __importDefault(require("../repositories/fakes/FakeU
 var FakeHashProvider_1 = __importDefault(require("../providers/HashProvider/fakes/FakeHashProvider"));
 var AuthenticateUserService_1 = __importDefault(require("./AuthenticateUserService"));
 var CreateUserService_1 = __importDefault(require("./CreateUserService"));
-var AppError_1 = __importDefault(require("@shared/errors/AppError"));
+var AppError_1 = __importDefault(require("../../../shared/errors/AppError"));
 var fakeUsersRepository;
 var fakeHashProvider;
 var createUser;

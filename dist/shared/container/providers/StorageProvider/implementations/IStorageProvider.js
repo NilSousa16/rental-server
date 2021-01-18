@@ -41,7 +41,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var fs_1 = __importDefault(require("fs"));
 var path_1 = __importDefault(require("path"));
-var upload_1 = __importDefault(require("@config/upload"));
+var upload_1 = __importDefault(require("../../../../../config/upload"));
 var DiskStorageProvider = /** @class */ (function () {
     function DiskStorageProvider() {
     }

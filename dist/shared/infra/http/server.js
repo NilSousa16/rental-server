@@ -14,11 +14,11 @@ var express_1 = __importDefault(require("express"));
 var cors_1 = __importDefault(require("cors"));
 require("express-async-errors");
 var routes_1 = __importDefault(require("./routes"));
-var upload_1 = __importDefault(require("@config/upload"));
-require("@shared/infra/typeorm");
-var AppError_1 = __importDefault(require("@shared/errors/AppError"));
+var upload_1 = __importDefault(require("../../../config/upload"));
+require("../../../shared/infra/typeorm");
+var AppError_1 = __importDefault(require("../../../shared/errors/AppError"));
 // import do container para injeção de dependência
-require("@shared/container");
+require("../../../shared/container");
 dotenv_1.default.config();
 var app = express_1.default();
 /** Deve ser colocado após o app

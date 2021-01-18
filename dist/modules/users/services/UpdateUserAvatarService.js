@@ -52,7 +52,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var tsyringe_1 = require("tsyringe");
-var AppError_1 = __importDefault(require("@shared/errors/AppError"));
+var AppError_1 = __importDefault(require("../../../shared/errors/AppError"));
 var UpdateUserAvatarService = /** @class */ (function () {
     function UpdateUserAvatarService(usersRepository, storageProvider) {
         this.usersRepository = usersRepository;

@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var express_1 = require("express");
-var ensureAuthenticated_1 = __importDefault(require("@modules/users/infra/http/middlewares/ensureAuthenticated"));
+var ensureAuthenticated_1 = __importDefault(require("../../../../users/infra/http/middlewares/ensureAuthenticated"));
 var AppointmentsController_1 = __importDefault(require("../controllers/AppointmentsController"));
 var appointmentsRouter = express_1.Router();
 var appointmentsController = new AppointmentsController_1.default();

@@ -39,10 +39,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var AppError_1 = __importDefault(require("@shared/errors/AppError"));
+var AppError_1 = __importDefault(require("../../../shared/errors/AppError"));
 var FakeUsersRepository_1 = __importDefault(require("../repositories/fakes/FakeUsersRepository"));
 var FakeUserTokensRepository_1 = __importDefault(require("../repositories/fakes/FakeUserTokensRepository"));
-var FakeMailProvider_1 = __importDefault(require("@shared/container/providers/MailProvider/fakes/FakeMailProvider"));
+var FakeMailProvider_1 = __importDefault(require("../../../shared/container/providers/MailProvider/fakes/FakeMailProvider"));
 var SendForgotPasswordEmailService_1 = __importDefault(require("./SendForgotPasswordEmailService"));
 var fakeUsersRepository;
 var fakeUserTokensRepository;

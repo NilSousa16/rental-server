@@ -56,7 +56,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 var date_fns_1 = require("date-fns");
 var tsyringe_1 = require("tsyringe");
-var AppError_1 = __importDefault(require("@shared/errors/AppError"));
+var AppError_1 = __importDefault(require("../../../shared/errors/AppError"));
 var CreateAppointmentService = /** @class */ (function () {
     // Forma reduzida para criar a instância de appointmentsRepository
     // Evita a necessidade de this.appointmentsRepository = appointmentsRepository
