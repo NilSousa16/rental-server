@@ -8,9 +8,10 @@ module.exports = {
   ],
   "migrations": [
     // "./src/shared/infra/typeorm/migrations/*.ts"
-    "dist/shared/infra/typeorm/migrations/*.js"
+    "./dist/shared/infra/typeorm/migrations/*.js"
   ],
   "cli": {
-    "migrationsDir": "./src/shared/infra/typeorm/migrations"
+    // "migrationsDir": "./src/shared/infra/typeorm/migrations"
+    "migrationsDir": "./dist/shared/infra/typeorm/migrations"
   }
 }
