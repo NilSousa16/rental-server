@@ -59,7 +59,7 @@ var CreateUserService = /** @class */ (function () {
         this.hashProvider = hashProvider;
     }
     CreateUserService.prototype.execute = function (_a) {
-        var name = _a.name, email = _a.email, password = _a.password;
+        var name = _a.name, email = _a.email, password = _a.password, address = _a.address, responsible_email = _a.responsible_email, cnpj = _a.cnpj, responsible_name = _a.responsible_name, phone = _a.phone;
         return __awaiter(this, void 0, void 0, function () {
             var checkUserExists, hashedPassword, user;
             return __generator(this, function (_b) {
@@ -77,6 +77,11 @@ var CreateUserService = /** @class */ (function () {
                                 name: name,
                                 email: email,
                                 password: hashedPassword,
+                                address: address,
+                                responsible_email: responsible_email,
+                                cnpj: cnpj,
+                                responsible_name: responsible_name,
+                                phone: phone,
                             })];
                     case 3:
                         user = _b.sent();

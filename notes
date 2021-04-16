@@ -1,5 +1,17 @@
+
+- Para a execução local
 "start": "ts-node src/shared/infra/http/server.ts",
 
+- Para a execução no servidor
+"start": "node dist/shared/infra/http/server.js",
+
+- Alterar configuração do arquivo ormconfig.js para utilizar as seguintes configurações já comentadas
+    // "./dist/modules/**/infra/typeorm/entities/*.js"
+    // "./dist/shared/infra/typeorm/migrations/*.js"
+    // "migrationsDir": "./dist/shared/infra/typeorm/migrations"
+    
+- Verificar --transpileOnly que está obsoleto
+    usar --transpile-only
 
 
  // "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js",

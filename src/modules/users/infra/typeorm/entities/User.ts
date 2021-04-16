@@ -11,6 +11,23 @@ class User {
   @Column()
   email: string;
 
+  // Dados adicionais do cliente
+  @Column()
+  address: string;
+
+  @Column()
+  responsible_email: string;
+  
+  @Column()
+  cnpj: string;
+
+  @Column()
+  responsible_name: string;
+
+  @Column()
+  phone: string;
+  // Dados adicionais do cliente
+  
   @Column()
   password: string;
 

@@ -46,16 +46,21 @@ var UsersController = /** @class */ (function () {
     }
     UsersController.prototype.create = function (request, response) {
         return __awaiter(this, void 0, void 0, function () {
-            var _a, name, email, password, createUser, user;
+            var _a, name, email, password, address, responsible_email, cnpj, responsible_name, phone, createUser, user;
             return __generator(this, function (_b) {
                 switch (_b.label) {
                     case 0:
-                        _a = request.body, name = _a.name, email = _a.email, password = _a.password;
+                        _a = request.body, name = _a.name, email = _a.email, password = _a.password, address = _a.address, responsible_email = _a.responsible_email, cnpj = _a.cnpj, responsible_name = _a.responsible_name, phone = _a.phone;
                         createUser = tsyringe_1.container.resolve(CreateUserService_1.default);
                         return [4 /*yield*/, createUser.execute({
                                 name: name,
                                 email: email,
                                 password: password,
+                                address: address,
+                                responsible_email: responsible_email,
+                                cnpj: cnpj,
+                                responsible_name: responsible_name,
+                                phone: phone,
                             })];
                     case 1:
                         user = _b.sent();
